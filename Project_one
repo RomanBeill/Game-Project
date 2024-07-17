@@ -4,20 +4,19 @@ import random
 
 pygame.init()
 
-# Размер экрана
+
 width = 800
 height = 600
 
-# Цвета
 black = (0, 0, 0)
 white = (255, 255, 255)
 red = (255, 0, 0)
 green = (0, 255, 0)
 
-# Размер змейки
+
 block_size = 20
 
-# Скорость змейки
+
 speed = 20
 
 screen = pygame.display.set_mode((width, height))
